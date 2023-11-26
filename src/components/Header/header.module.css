@@ -1,0 +1,67 @@
+.header {
+  background: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: #F2F2F2;
+  flex-wrap: wrap;
+  background:transparent;
+  padding: 1.5rem;
+}
+.header div{
+  border-bottom-color: white;
+  color: #0D0D0D;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 3%;
+  
+}
+.header div h1{
+font-weight: 300;
+}
+.newTaskForm {
+  height: 50px;
+  bottom: -27px;
+  width: 100%;
+  max-width: 736px;
+  display: flex;
+  gap: 8px;
+  padding: 0 1rem;
+  
+}
+
+.newTaskForm input {
+  height: 100%;
+  flex: 1;
+  background: rgba(255, 255, 255, 0.336);
+  backdrop-filter: blur( 18px );
+  -webkit-backdrop-filter: blur( 18px );
+  border-radius: 1rem;
+  z-index: 10;
+  padding: 0 16px;
+  font-size: 18px;
+  font-weight:200;
+  border-color:transparent;
+}
+
+.newTaskForm input::placeholder {
+  color: #686868;
+}
+
+.newTaskForm button {
+  height: 100%;
+  padding: 0 16px;
+  background: #00a2ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight:300;
+  font-size: 18px;
+}
