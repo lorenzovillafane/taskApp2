@@ -40,9 +40,34 @@
   font-size: 14px;
   font-weight: 300;
 }
+@media (max-width: 600px) {
 
 .list {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+.header > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.header p {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 300;
+}
+.header span {
+  background: transparent;
+  color: #000000;
+  padding: 3px 9px;
+  border-radius: 999px;
+  border-color: black;
+  border-style:solid;
+  border-width: thin;
+  font-size: 12px;
+  font-weight: 300;
+}
 }

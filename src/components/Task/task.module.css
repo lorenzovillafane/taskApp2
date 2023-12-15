@@ -53,3 +53,24 @@ p.textCompleted {
   color: black;
 }
 div{margin-bottom: 2%;}
+@media (max-width: 600px) {
+  .task {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    background: rgba(255, 255, 255, 0.336);
+    backdrop-filter: blur( 18px );
+    -webkit-backdrop-filter: blur( 18px );
+    border-radius: 1rem;
+    z-index: 10;
+    flex-wrap: wrap;
+    
+  }
+  
+  
+
+}
